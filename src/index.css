@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #e5e7eb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h1#headerTitle {
+  color: #bfdbfe;
+}
+
+span#logoFIEMS,
+div#logoFIEMS {
+  width: 60px;
+  height: 40px;
+
+  background-image: url("/Logo FIEMS.png");
+  background-position: -17.295px -10.087px;
+  background-size: 159.601% 244.275%;
+  background-repeat: no-repeat;
+}
+
+.mantine-Tabs-list::before {
+  visibility: hidden;
+}
